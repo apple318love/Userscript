@@ -9,8 +9,8 @@
 // @author          Zzbaivong
 // @oujs:author     baivong
 // @license         MIT; https://baivong.mit-license.org/license.txt
-// @match           https://truyenfull.vn/*
-// @match           https://truyenfull.vision/*
+// @match           https://truyenfull.today/*
+// @match           https://truyenfull.today/*
 // @require         https://code.jquery.com/jquery-3.7.1.min.js
 // @require         https://unpkg.com/jszip@3.9.1/dist/jszip.min.js
 // @require         https://unpkg.com/file-saver@2.0.5/dist/FileSaver.min.js
