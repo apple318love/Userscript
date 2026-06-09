@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name            truyenfull.com downloader
-// @name:vi         truyenfull.com downloader
+// @name            truyenfull.today downloader
+// @name:vi         truyenfull.today downloader
 // @namespace       https://lelinhtinh.github.io/
-// @description     Tải EPUB truyện từ truyenfull.com.
-// @description:vi  Tải EPUB truyện từ truyenfull.com.
+// @description     Tải EPUB truyện từ truyenfull.today.
+// @description:vi  Tải EPUB truyện từ truyenfull.today.
 // @version         1.1.1
 // @icon            https://i.imgur.com/pn1dLFw.png
 // @author          Zzbaivong
 // @oujs:author     baivong
 // @license         MIT; https://baivong.mit-license.org/license.txt
-// @match           https://truyenfull.com/*
+// @match           https://truyenfull.today/*
 // @require         https://code.jquery.com/jquery-3.6.3.min.js
 // @require         https://unpkg.com/jszip@3.1.5/dist/jszip.min.js
 // @require         https://unpkg.com/file-saver@2.0.5/dist/FileSaver.min.js
@@ -338,7 +338,7 @@
     credits =
       '<p>Truyện được tải từ <a href="' +
       referrer +
-      '">truyenfull.com</a></p><p>Userscript được viết bởi: <a href="https://lelinhtinh.github.io/jEpub/">lelinhtinh</a></p>',
+      '">truyenfull.today</a></p><p>Userscript được viết bởi: <a href="https://lelinhtinh.github.io/jEpub/">lelinhtinh</a></p>',
     jepub;
 
   var $ebookType = $('.info a[itemprop="genre"]');
